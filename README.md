@@ -68,7 +68,7 @@ their config via the H2 (RMQ) interface, which relies on the platform being up.
 #### Service config
 
 Service config is loaded by both Java and Go services on launch. For Go, you
-should be accessing config via the [config service layer library](https://github.com/HailoOSS/go-service-layer/tree/master/config):
+should be accessing config via the [config service layer library](https://github.com/HailoOSS/service/tree/master/config):
 
 	config.AtPath("foo","bar").AsString("Foo")
 

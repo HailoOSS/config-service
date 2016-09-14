@@ -10,8 +10,8 @@ import (
 	log "github.com/cihub/seelog"
 
 	"github.com/HailoOSS/config-service/handler"
-	"github.com/HailoOSS/go-platform-layer/errors"
-	inst "github.com/HailoOSS/go-service-layer/instrumentation"
+	"github.com/HailoOSS/platform/errors"
+	inst "github.com/HailoOSS/service/instrumentation"
 )
 
 const (

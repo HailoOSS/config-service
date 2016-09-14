@@ -5,8 +5,8 @@ import (
 
 	"github.com/HailoOSS/config-service/domain"
 	read "github.com/HailoOSS/config-service/proto/read"
-	"github.com/HailoOSS/go-platform-layer/errors"
-	"github.com/HailoOSS/go-platform-layer/server"
+	"github.com/HailoOSS/platform/errors"
+	"github.com/HailoOSS/platform/server"
 )
 
 // Read will read a single ID config - and should only be used when editing config (use compile when reading for use)

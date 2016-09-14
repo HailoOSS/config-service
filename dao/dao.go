@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/HailoOSS/config-service/domain"
-	"github.com/HailoOSS/go-service-layer/cassandra"
-	"github.com/HailoOSS/go-service-layer/cassandra/timeseries"
+	"github.com/HailoOSS/service/cassandra"
+	"github.com/HailoOSS/service/cassandra/timeseries"
 	"github.com/HailoOSS/gossie/src/gossie"
 )
 

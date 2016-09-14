@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	log "github.com/cihub/seelog"
-	cfgsvc "github.com/HailoOSS/go-service-layer/config"
+	cfgsvc "github.com/HailoOSS/service/config"
 )
 
 // Bootstrap loads minimal viable config needed for config service

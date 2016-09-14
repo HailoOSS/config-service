@@ -7,8 +7,8 @@ import (
 
 	"github.com/HailoOSS/config-service/domain"
 	explain "github.com/HailoOSS/config-service/proto/explain"
-	"github.com/HailoOSS/go-platform-layer/errors"
-	"github.com/HailoOSS/go-platform-layer/server"
+	"github.com/HailoOSS/platform/errors"
+	"github.com/HailoOSS/platform/server"
 )
 
 // Explain will compile config and then explain from which ID the "winning" piece of config came

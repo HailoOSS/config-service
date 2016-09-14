@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	platformtesting "github.com/HailoOSS/go-platform-layer/testing"
-	ssync "github.com/HailoOSS/go-service-layer/sync"
-	zk "github.com/HailoOSS/go-service-layer/zookeeper"
+	platformtesting "github.com/HailoOSS/platform/testing"
+	ssync "github.com/HailoOSS/service/sync"
+	zk "github.com/HailoOSS/service/zookeeper"
 	gozk "github.com/HailoOSS/go-zookeeper/zk"
 )
 

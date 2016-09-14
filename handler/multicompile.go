@@ -6,8 +6,8 @@ import (
 	"github.com/HailoOSS/protobuf/proto"
 
 	multicompile "github.com/HailoOSS/config-service/proto/multicompile"
-	"github.com/HailoOSS/go-platform-layer/errors"
-	"github.com/HailoOSS/go-platform-layer/server"
+	"github.com/HailoOSS/platform/errors"
+	"github.com/HailoOSS/platform/server"
 )
 
 // MultiCompile is an equivalent of repeated executions of "Compile". Its goal is to save traffic.

@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/mock"
 
 	"github.com/HailoOSS/config-service/domain"
-	"github.com/HailoOSS/go-platform-layer/server"
-	platformtesting "github.com/HailoOSS/go-platform-layer/testing"
-	"github.com/HailoOSS/go-service-layer/auth"
-	"github.com/HailoOSS/go-service-layer/nsq"
-	ssync "github.com/HailoOSS/go-service-layer/sync"
-	zk "github.com/HailoOSS/go-service-layer/zookeeper"
+	"github.com/HailoOSS/platform/server"
+	platformtesting "github.com/HailoOSS/platform/testing"
+	"github.com/HailoOSS/service/auth"
+	"github.com/HailoOSS/service/nsq"
+	ssync "github.com/HailoOSS/service/sync"
+	zk "github.com/HailoOSS/service/zookeeper"
 	gozk "github.com/HailoOSS/go-zookeeper/zk"
 	"github.com/HailoOSS/protobuf/proto"
 

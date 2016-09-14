@@ -7,8 +7,8 @@ import (
 
 	"github.com/HailoOSS/config-service/domain"
 	compile "github.com/HailoOSS/config-service/proto/compile"
-	"github.com/HailoOSS/go-platform-layer/errors"
-	"github.com/HailoOSS/go-platform-layer/server"
+	"github.com/HailoOSS/platform/errors"
+	"github.com/HailoOSS/platform/server"
 )
 
 // Compile constructs a single, merged, view of config, combining many individual elements

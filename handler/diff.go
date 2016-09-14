@@ -10,8 +10,8 @@ import (
 
 	"github.com/HailoOSS/config-service/domain"
 	diff "github.com/HailoOSS/config-service/proto/diff"
-	"github.com/HailoOSS/go-platform-layer/errors"
-	"github.com/HailoOSS/go-platform-layer/server"
+	"github.com/HailoOSS/platform/errors"
+	"github.com/HailoOSS/platform/server"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	log "github.com/cihub/seelog"
-	"github.com/HailoOSS/go-service-layer/nsq"
+	"github.com/HailoOSS/service/nsq"
 )
 
 const broadcastTopic = "config.reload"

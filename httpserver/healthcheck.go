@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/HailoOSS/go-service-layer/healthcheck"
+	"github.com/HailoOSS/service/healthcheck"
 )
 
 const HealthCheckId = "com.HailoOSS.service.config.httpconnect"

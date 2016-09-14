@@ -10,11 +10,11 @@ import (
 	"github.com/HailoOSS/config-service/domain"
 	"github.com/HailoOSS/config-service/handler"
 	"github.com/HailoOSS/config-service/httpserver"
-	service "github.com/HailoOSS/go-platform-layer/server"
-	"github.com/HailoOSS/go-service-layer/cassandra"
-	"github.com/HailoOSS/go-service-layer/healthcheck"
-	"github.com/HailoOSS/go-service-layer/nsq"
-	"github.com/HailoOSS/go-service-layer/zookeeper"
+	service "github.com/HailoOSS/platform/server"
+	"github.com/HailoOSS/service/cassandra"
+	"github.com/HailoOSS/service/healthcheck"
+	"github.com/HailoOSS/service/nsq"
+	"github.com/HailoOSS/service/zookeeper"
 )
 
 func main() {

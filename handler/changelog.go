@@ -8,8 +8,8 @@ import (
 
 	"github.com/HailoOSS/config-service/domain"
 	changelog "github.com/HailoOSS/config-service/proto/changelog"
-	"github.com/HailoOSS/go-platform-layer/errors"
-	"github.com/HailoOSS/go-platform-layer/server"
+	"github.com/HailoOSS/platform/errors"
+	"github.com/HailoOSS/platform/server"
 )
 
 // ChangeLog will read a time series of changes made within a range

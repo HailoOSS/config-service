@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	platformsync "github.com/HailoOSS/go-service-layer/sync"
+	platformsync "github.com/HailoOSS/service/sync"
 
 	sjson "github.com/bitly/go-simplejson"
 )

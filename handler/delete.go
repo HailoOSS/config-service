@@ -8,8 +8,8 @@ import (
 
 	"github.com/HailoOSS/config-service/domain"
 	del "github.com/HailoOSS/config-service/proto/delete"
-	"github.com/HailoOSS/go-platform-layer/errors"
-	"github.com/HailoOSS/go-platform-layer/server"
+	"github.com/HailoOSS/platform/errors"
+	"github.com/HailoOSS/platform/server"
 	gouuid "github.com/nu7hatch/gouuid"
 )
 
